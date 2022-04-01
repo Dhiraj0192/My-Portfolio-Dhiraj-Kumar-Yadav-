@@ -35,3 +35,97 @@ ul {
 a {
     text-decoration: none;
 }
+
+/*Sidebar*/
+
+.sidebar{
+    position: fixed;
+    width: 100px;
+    height: 100vh;
+    background-color: #0A0A0F;
+    border-right: 1px solid gray;
+}
+
+.nav_logo{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1.8rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: darkred;
+    text-align: center;
+    margin: auto;
+}
+
+.nav_logo_text{
+    font-size: 1.50rem;
+    color: white;
+    font-weight: 600;
+    line-height: 40px;
+
+}
+
+.nav_menu{
+    position: fixed;
+    transform: rotate(-90deg) translate(-100%);
+    transform-origin: left top;
+    width: 100vh;
+}
+
+.menu{
+    display: flex;
+}
+
+.nav_list{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: -2px auto 0 auto;
+}
+
+.nav_link{
+    float: right;
+    height: 100%;
+    line-height: 100px;
+    padding: 0 1rem;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    font-size: 20px;
+
+
+}
+
+.nav_link.active_link, .nav_link:hover{
+    color: red;
+}
+
+.nav_link.active_link::after, .nav_link:hover::after{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: darkred;
+    border-radius: 50%;
+    bottom: 1.25rem;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+
+}
+
+.btn_share{
+    position: absolute;
+    bottom: 1.8rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+.social_share{
+    font-size: 35px;
+}
+
+
