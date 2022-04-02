@@ -128,4 +128,40 @@ a {
     font-size: 35px;
 }
 
+/*Main*/
+
+.main{
+    margin-left: 100px;
+
+}
+
+.follow_me{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1.7rem;
+    margin-left: 30px;
+
+}
+.divider{
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    top: 36px;
+    left: 228px;
+    margin-left: 8px;
+    background-color: darkred;
+    border-radius: 15px;
+
+}
+.follow_share{
+    margin-left: 35px;
+    display: inline-block;
+
+}
+.social_link{
+    padding-left: 10px;
+    color: gray;
+}
 
