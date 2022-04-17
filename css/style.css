@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 html {
@@ -20,6 +21,7 @@ input {
     font-family: var(--body-font);
     font-size: 1rem;
 }
+
 
 h1,
 h2,
@@ -126,6 +128,10 @@ a {
 }
 .social_share{
     font-size: 35px;
+    color: white;
+}
+.social_share:hover{
+    color: darkred;
 }
 
 /*Main*/
@@ -141,6 +147,7 @@ a {
     font-weight: 600;
     margin-top: 1.7rem;
     margin-left: 30px;
+    color: white;
 
 }
 .divider{
@@ -164,4 +171,241 @@ a {
     padding-left: 10px;
     color: gray;
 }
+.social_link:hover{
+    color: darkred;
+}
 
+.intro{
+    padding: 10px;
+    color: white;
+    height: 79vh;
+}
+.name{
+    font-size: 60px;
+}
+.whoiam{
+    font-size: 20px;
+    line-height: 1.2;
+}
+.title{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.desc{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.home_main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.intro{
+    display: inline-block;
+    padding: 20px;
+    margin-top: 160px;
+
+}
+
+
+
+.shape{
+    position: absolute;
+    top: 92px;
+    bottom: 0px;
+    right: 20px;
+    height: 85vh;
+    width: 650px;
+}
+.image{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    height: 93vh;
+    width: 650px;
+}
+
+
+
+#morebutton{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#morebutton:hover{
+    background-color: #fcba03;
+    color: black;
+}
+
+.my_share{
+
+   display: flex;
+}
+.my_share_link{
+    display: flex;
+    position: absolute;
+    bottom: 1.8rem;
+    left: 120px;
+}
+.fp{
+    padding-left: 30px;
+}
+.fbicons{
+    font-size: 40px;
+    color: #3b5998;
+    padding-right: 5px;
+}
+.wpicons{
+    font-size: 40px;
+    color: #25D366;
+    padding-right: 5px;
+}
+.emicons{
+    font-size: 40px;
+    color: red;
+    padding-right: 5px;
+}
+.link_title{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.link_link{
+    text-decoration: none;
+    color: white;
+}
+
+.divider_line{
+    width: 6vw;
+    height: 5px;
+    border: none;
+    background-color: red;
+    margin-top: 5px;
+}
+.divider_line2{
+    width: 3vw;
+    height: 5px;
+    border: none;
+    background-color: red;
+    margin-top: 5px;
+}
+.about_main{
+    padding: 20px;
+}
+.about_title{
+    font-size: 45px;
+}
+.about_who{
+    margin-top: 40px;
+    font-size: 30px;
+}
+.about_desc{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.about_web{
+    color: yellow;
+}
+.my_details{
+    display: inline-flex;
+    margin-top: 50px;
+}
+.details3{
+    padding-left: 100px;
+
+}
+.details1{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.details2{
+    font-weight: bold;
+}
+.btn{
+    margin-top: -80px;
+}
+.download{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: red;
+    border-radius: 25px;
+    border: none;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hire{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: red;
+    border-radius: 25px;
+    border: none;
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+.hr_line{
+    width: 306px;
+    margin-top: 10px;
+}
+.lang_details{
+    margin-left: 200px;
+    margin-top: 17px;
+}
+.lang_name{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.hr_line1{
+    width: 376px;
+    margin-top: 10px;
+    height: 8px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.hr_line2{
+    width: 274px;
+    margin-top: 10px;
+    height: 8px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.hr_line3{
+    width: 431px;
+    margin-top: 10px;
+    height: 6px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.line{
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+}
+.lang_name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.lang{
+    width: 450px;
+}
